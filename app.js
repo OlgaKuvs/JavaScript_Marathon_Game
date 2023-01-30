@@ -92,7 +92,7 @@ function finishGame() {
         // timeEl.parentNode.classList.add('hide')   
 
                         // убираем все с экрана и печатаем инфо о завершении игры
-    board.innerHTML = (`<h2>Ваш счет: <span class=primary>${score}</span></h2>`)
+    board.innerHTML = (`<h2>Your score: <span class=primary>${score}</span></h2>`)
 
 }
 
